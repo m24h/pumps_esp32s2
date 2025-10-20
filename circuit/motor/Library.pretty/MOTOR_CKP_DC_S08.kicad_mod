@@ -1,0 +1,133 @@
+(footprint "MOTOR_CKP_DC_S08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb20cc7a-269f-4d11-87f8-38bdd77dea1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CKP-DC-S08"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9404d517-7aa4-4ac3-b5c7-2d6111a15280")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "my:MOTOR_CKP_DC_S08"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f38ba1a6-40f5-47cf-a190-762b81baf7ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c79e8e30-d89b-4c3c-bbd7-b3993102e96a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Motor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fa4ee8f-9299-4076-8ec2-1e1875a9afd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "23d38968-6420-4f72-afb5-ddc421e0b7af")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 14.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f8e68974-568c-430e-ba21-7f662b4dd875")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 14.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "025d2660-f71b-4b7d-a11f-c8b7c5d50c6c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "efc8ebb9-8d3e-4560-9354-7e977ed49d1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -11.349628 -3.041124 345)
+		(size 2.5 4.5)
+		(drill oval 0.762 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "adbede7e-c894-4dde-8a98-9d2d599cf9d1")
+	)
+	(pad "2" thru_hole roundrect
+		(at 11.349628 3.041124 345)
+		(size 2.5 4.5)
+		(drill oval 0.762 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "e36216b0-0136-41cb-a4c8-5c89c12e39dc")
+	)
+)

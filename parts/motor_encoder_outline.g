@@ -1,0 +1,60 @@
+(Exported by FreeCAD)
+(Post Processor: mach3_mach4_post)
+(Output Time:2024-03-25 18:33:28.654540)
+(begin preamble)
+G17 G54 G40 G49 G80 G90
+G21
+(begin operation: G54)
+(machine: mach3_4, mm/min)
+G54
+G0 Z5.800
+(finish operation: G54)
+(begin operation: TC: Default Tool)
+(machine: mach3_4, mm/min)
+(TC: Default Tool)
+M5
+M6 T1 
+G43 H1
+(finish operation: TC: Default Tool)
+(begin operation: Profile)
+(machine: mach3_4, mm/min)
+(Profile)
+(Compensated Tool Path. Diameter: 0.7)
+G0 Z5.800
+G0 X6.031 Y8.411
+G0 Z3.800
+G1 X6.031 Y8.411 Z-0.500
+G2 X7.308 Y7.329 Z-0.500 I-6.031 J-8.411
+G2 X7.319 Y6.824 Z-0.500 I-0.236 J-0.258
+G1 X4.016 Y3.521 Z-0.500
+G2 X4.015 Y-3.520 Z-0.500 I-3.979 J-3.520
+G1 X7.319 Y-6.824 Z-0.500
+G2 X7.308 Y-7.329 Z-0.500 I-0.247 J-0.247
+G2 X-7.308 Y-7.329 Z-0.500 I-7.308 J7.329
+G2 X-7.319 Y-6.824 Z-0.500 I0.236 J0.258
+G1 X-4.016 Y-3.521 Z-0.500
+G2 X-4.015 Y3.520 Z-0.500 I3.979 J3.520
+G1 X-7.319 Y6.824 Z-0.500
+G2 X-7.308 Y7.329 Z-0.500 I0.247 J0.247
+G2 X6.031 Y8.411 Z-0.500 I7.308 J-7.329
+G1 X6.031 Y8.411 Z-0.800
+G2 X7.308 Y7.329 Z-0.800 I-6.031 J-8.411
+G2 X7.319 Y6.824 Z-0.800 I-0.236 J-0.258
+G1 X4.016 Y3.521 Z-0.800
+G2 X4.015 Y-3.520 Z-0.800 I-3.979 J-3.520
+G1 X7.319 Y-6.824 Z-0.800
+G2 X7.308 Y-7.329 Z-0.800 I-0.247 J-0.247
+G2 X-7.308 Y-7.329 Z-0.800 I-7.308 J7.329
+G2 X-7.319 Y-6.824 Z-0.800 I0.236 J0.258
+G1 X-4.016 Y-3.521 Z-0.800
+G2 X-4.015 Y3.520 Z-0.800 I3.979 J3.520
+G1 X-7.319 Y6.824 Z-0.800
+G2 X-7.308 Y7.329 Z-0.800 I0.247 J0.247
+G2 X6.031 Y8.411 Z-0.800 I7.308 J-7.329
+G0 Z5.800
+G0 Z5.800
+(finish operation: Profile)
+(begin postamble)
+M05
+G17 G54 G90 G80 G40
+M2
